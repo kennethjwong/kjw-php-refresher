@@ -7,7 +7,7 @@ return [
         'dbname' => 'apps',
         'charset' => 'utf8mb4',
         'user' => 'root',
-        'password' => 'pass',
+        'password' => '',
     ],
 
     //
