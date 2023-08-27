@@ -1,0 +1,23 @@
+{
+  "name": "kenneth/php-for-beginners-series",
+  "authors": [
+    {
+      "name": "Kenneth",
+      "email": "14003738+kennethjwong@users.noreply.github.com"
+    }
+  ],
+  "require": {
+    "illuminate/collections": "^10.20"
+  },
+  "autoload": {
+    "psr-4": {
+      "Core\\": "Core/",
+      "Http\\": "Http/"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": false
+    }
+  }
+}
